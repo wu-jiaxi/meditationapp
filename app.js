@@ -10,6 +10,7 @@ const app = () => {
   const timeSelect = document.querySelectorAll(".time-select button");
 
   const outlineLength = outline.getTotalLength();
+  const resetTime = document.querySelectorAll(".time-select");
 
   let fakeDuration = 600;
 
