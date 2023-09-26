@@ -18,8 +18,8 @@ const app = () => {
 
   sounds.forEach((sound) => {
     sound.addEventListener("click", function () {
-      song.loop = this.getAttribute("data-sound");
-      video.loop = this.getAttribute("data-video");
+      song.src = this.getAttribute("data-sound");
+      video.src = this.getAttribute("data-video");
       checkPlaying(song);
     });
   });
